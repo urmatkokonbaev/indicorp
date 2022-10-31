@@ -1,0 +1,51 @@
+@import url("./fonts.css");
+
+:root {
+    --dark-color: #252B42;
+    --disable-color: #737373;
+    --sky-color: #00A0C1;
+    --warn-color: #FFA62B;
+    --light-color: #fff;
+    
+}
+
+/* BASE CONFIG */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+}
+ul {
+    margin-left: 0;
+    margin-right: 0;
+}
+li {
+    list-style-type: none;
+}
+body {
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+
+/* BASE CONFIG */
+
+/* UNIQUE */
+.container {
+    max-width: 1070px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/* UNIQUE */
+
+/* FEATURES SECTION */
+.features {
+    padding: 211px 0 80px;
+}
+/* FEATURES SECTION */
